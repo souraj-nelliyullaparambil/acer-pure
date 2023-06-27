@@ -1,0 +1,217 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.cursor-section {
+  cursor: pointer;
+}
+.nav-text-size li {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 992px) {
+  .x2dw {
+    margin-left: 190px;
+  }
+}
+#middle h2 {
+  font-size: 28px;
+  font-family: "Acer Foco", "Trebuchet MS", Arial, "WenQuanYi Zen Hei", "LiHei Pro", "Microsoft JhengHei";
+  font-weight: 700;
+  line-height: 44px;
+  color: #222222;
+}
+/* <!-- video section --> */
+.modal-heads {
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+.card-img-overlay h2 {
+  font-size: 32px;
+  font-family: "Acer Foco", "Trebuchet MS", Arial, "WenQuanYi Zen Hei", "LiHei Pro", "Microsoft JhengHei";
+  font-weight: 500;
+  line-height: 44px;
+  color: #222222;
+}
+.card-img-overlay h4 {
+  font-weight: 400;
+  font-size: 22px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.card-img-overlay {
+  margin-left: 58%;
+  margin-top: 8%;
+}
+/* <!-- new product Launch --> */
+@media screen and (max-width: 768px) {
+ .product-launch .card-img-overlay {
+    margin-left: 0;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .product-launch.card-img-overlay h4 {
+    font-weight: 400;
+    font-size: 22px;
+  }
+ .product-launch .new-collection {
+    font-size: 25px;
+  }
+}
+/* new-collection  */
+.new-collection {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  font-weight: 600;
+  font-family: "Acer Foco", "Trebuchet MS", Arial, "WenQuanYi Zen Hei", "LiHei Pro", "Microsoft JhengHei";
+  font-style: normal;
+  font-size: 33px;
+  line-height: 45px;
+  color: #222222;
+}
+
+#product button {
+  margin-top: 5px;
+}
+.center-sec {
+  display: flex;
+  justify-content: center;
+}
+.cente {
+  width: 80%;
+}
+.center-sec h5{
+  font-weight: 400;
+}
+.center-sec h6{
+  font-weight: 400;
+  font-size: 13px;
+}
+.center-sec p{
+  font-size: 14px;
+}
+
+/* footer section -list*/
+.footerx {
+  background-color: #666666;
+}
+.container-section {
+  background-color: transparent;
+}
+/* footer section-list md device */
+.list-items {
+  padding: 1rem 0px;
+  display: flex;
+  justify-content: space-around;
+  color: rgb(106, 106, 106);
+  line-height: 2rem;
+}
+.list-items dd {
+  color: #bebebe;
+  padding: 0%;
+  font-size: 11px;
+  cursor: pointer;
+}
+.list-items dt {
+  color: #fff;
+  padding-top: 15%;
+  font-size: 12px;
+  font-weight: 400;
+}
+dl {
+  margin: 0%;
+}
+.list-items dd:hover {
+  color: #fff;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+}
+/* footer section-list sm device  */
+.list-items-mobile a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.list-items-mobile a:hover {
+  color: white;
+}
+.list-items-mobile dt {
+  line-height: 1rem;
+}
+
+.list-items-mobile dd {
+  font-size: 11px;
+  padding-left: 10px;
+  padding-bottom: 0;
+  color: rgb(171, 170, 170);
+  margin: 0;
+  line-height: 2rem;
+}
+/* acerpure footer social section   */
+   .footerY{
+    background-color: #222222;
+   }
+   .s-footer{
+    display: flex;
+    justify-content: space-between;
+   }
+   @media (max-width:767px){
+    .s-footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .s-footer_icon{
+      padding-top: 1em;
+    }
+    #middle div h2{
+      font-size: 16px;
+    }
+    .new-collection{
+      font-size: 20px;
+      padding: 25px;
+    }
+   }
+   .s-footer_acerpure-logo img{
+    width: 11rem;
+    cursor: pointer;
+   }
+   .s-footer_icon img{
+    width: 1.5rem;
+    cursor: pointer;
+   }
+   .s-footer_text{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    color: #686767;
+    padding-top: 2rem;
+   }
+
+   /*to  home screen */
+.home-screen{
+  position: fixed;
+    bottom: 1.2rem;
+   right: 1.2rem;
+    background-color: rgb(255, 255, 255);
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 2.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:0px 2px 5px rgba(0, 0, 0, 0.384) ;
+}
+.home-screen a:hover{
+  cursor: pointer;
+    translate:0 -2px;
+}
+.home-screen i{
+  width: 1rem;
+}
